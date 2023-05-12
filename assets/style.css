@@ -1,0 +1,53 @@
+/* Center the game container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the game title */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the game info */
+  .game-info {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the word display */
+  .word-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the letters container */
+  .letters-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the letters */
+  .letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Style the active letter */
+  .letter.active {
+    background-color: black;
+    color: white;
+  }
+  
